@@ -19,6 +19,7 @@ ul{
  nav a{
     color: white;
     text-decoration: none;
+
     
  }
  nav h2{
@@ -39,4 +40,40 @@ ul{
  img{
    width: 150px;
    height: auto;
+ }
+
+ .hero{
+   height: 90vh;
+   background: url(media/banner.png) no-repeat center/cover ;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   color: aliceblue;
+
+ }
+ .hero button
+ {
+   margin-top: 15px;
+   padding: 10px 20px;
+   background-color: red;
+   color: white;
+   border-radius: 15px;
+   cursor: pointer;
+ }
+ 
+ .hero button:hover{
+   background-color: blue;
+ }
+
+ .video-section{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 50px;
+   gap: 40px;
+ }
+
+ .video-box  video{
+   width: 100%;
+   border-radius: 15px;
  }
