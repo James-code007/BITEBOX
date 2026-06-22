@@ -190,3 +190,97 @@ header{
   position: sticky;
   top: 0;
 }
+
+.item{
+  display:flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.item img{
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  transform: 1 1;
+}
+
+.cart {
+  height: 100px;
+  padding: 50px 0;
+}
+
+table{
+  width: 70%;
+  background-color: aquamarine;
+  border-radius: 10px;
+  position:sticky;
+  border-collapse: collapse;
+  
+}
+
+thead{
+  background-color: red;
+
+}
+
+th,td{
+  padding: 20px;
+  text-align: center;
+}
+tr{
+  border-bottom: 1px solid black;
+}
+
+.item h4{
+  margin-bottom: 15px;
+}
+
+.qty-box{
+  display: flex;
+  align-content: center;
+  gap: 10%;
+}
+
+.qty-box button{
+  width: 30px;
+  height: 27.5px;
+  border: none;
+  background-color: aliceblue;
+  font-size: 20px;
+  border-radius:px;
+  cursor: pointer;
+}
+
+.qty-box button:hover{
+  background-color: darkred;
+  color: blue;
+}
+.remove{
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.remove:hover{
+  background-color: darkred;
+}
+
+.grand-total button{
+  background-color: red;
+  color: aliceblue;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.grand-total button:hover{
+  background-color: darkred;
+}
+.grand-total td{
+  font-size: 22px;
+  padding: 30px 30px;
+  font-weight: bold;
+}
