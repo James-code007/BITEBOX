@@ -284,3 +284,65 @@ tr{
   padding: 30px 30px;
   font-weight: bold;
 }
+
+.auth-container{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.auth-box {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  width: 320px;
+  text-align: center;
+
+}
+
+.auth-box h2{
+  margin-bottom: 20px;
+  color: rgb(56, 197, 249);
+}
+
+.auth-box input{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid rgb(19, 18, 18);
+  border-radius: 10px;
+  outline: none;
+}
+
+.auth-box input:focus{
+  border-color: red;
+}
+
+.auth-box button{
+  width: 100%;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+
+}
+
+.auth-box button:hover{
+  color: darkred;
+}
+
+.auth-box a{
+  text-decoration: none ;
+  color: red;
+}
+
+.auth-box p{
+  margin-top: 10px;
+  font-size: 14px;
+
+}
